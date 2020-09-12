@@ -1,0 +1,36 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #payments {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 10px;   
+  }
+  
+  #payments td, #payments th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #payments tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #payments tr:hover {background-color: #ddd;}
+  
+  #payments th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+  }
+
+  .userSelect {
+    margin-left: 30px;
+    margin-top: 10px;   
+  }
